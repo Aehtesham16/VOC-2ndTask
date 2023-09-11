@@ -1,0 +1,40 @@
+/* Basic styles for the card component */
+.card {
+    width: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 16px rgba(20, 0, 0, 0.2);
+    text-align:center;
+    margin:auto;
+}
+
+.card img {
+    width: 75%;
+    max-height: 350px;
+    object-fit:cover;
+    border-radius: 4px;
+    border-image: round;
+    image-resolution:2px;
+}
+
+.card h2 {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-style: bold;
+    text-decoration: underline ;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 1rem;
+    animation-name:unset;
+}
+
+.card a {
+    display: block;
+    margin-top: 16px;
+    text-decoration:none;
+    color: #2f00ff;
+    font-weight: bold;
+}

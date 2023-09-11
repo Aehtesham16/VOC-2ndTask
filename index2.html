@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Element</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="toggleElement()">Toggle Element</button>
+    <div id="target" class="hidden">This is the target element.</div>
+
+    <script>
+        function toggleElement() {
+            var element = document.getElementById("target");
+            element.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
